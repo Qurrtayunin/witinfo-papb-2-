@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="16dp">
+
+<TextView
+    android:id="@+id/title_kategori_hias"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/back"
+    android:layout_marginRight="35dp"
+    android:layout_marginTop="14dp"
+    android:gravity="center"
+    android:text="TANAMAN HIAS"
+    android:textColor="@android:color/black"
+    android:textSize="21dp"
+    android:textStyle="bold"/>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/title_kategori_hias">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/hasil_kategorihias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"/>
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

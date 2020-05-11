@@ -12,9 +12,9 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_simpan"
-        android:name="com.example.witinfo.ui.simpan.SimpanFragment"
-        android:label="@string/title_simpan"
+        android:id="@+id/navigation_artikel"
+        android:name="com.example.witinfo.ui.artikel.ArtikelFragment"
+        android:label="@string/title_artikel"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
